@@ -11,10 +11,7 @@ public class DivideTest {
 		assertTrue(3.0/1.0 == Divide.Divider(3.0, 1.0));
 		assertTrue(3.0/-1.0 == Divide.Divider(3.0, -1.0));
 		assertTrue(-3.0/-2.0 == Divide.Divider(-3.0, -2.0));
+		assertTrue(Double.isInfinite(Divide.Divider(-3.0, 0.0)));
 	}
-	
-	@Test(expected=ArithmeticException.class)
-	public void DividerTestDivisionByZero(){
-		Divide.Divider(3.0, 0.0);
-	}
+
 }
