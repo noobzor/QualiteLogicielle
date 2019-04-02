@@ -46,9 +46,9 @@ public class MultiplyTest {
 		assertTrue(-1.0+-1 == Addition.Additionner(-1, -1));
 	}
 
-	@Test(expected = error.class)
+	@Test(expected = OutOfRangeException.class)
 	public final void AdditionTest() {
-		assertTrue("toto" + 1 == Addition.Additionner("toto", 1))
+		assertTrue(Double.MAX_VALUE + 1 == Addition.Additionner(Double.MAX_VALUE, 1))
 	}
 
 }
