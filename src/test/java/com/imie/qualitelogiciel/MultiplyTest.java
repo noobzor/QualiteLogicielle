@@ -46,7 +46,7 @@ public class MultiplyTest {
 		assertTrue(-1.0*-1.0 == Multiply.Multiplyer(-1.0, -1.0));
 	}
 	
-	@Test
+	@Test(expected = OutOfRangeException.class)
 	public final void MultiplyerTest9() {
 		assertTrue(Double.MAX_VALUE*Double.MAX_VALUE == Multiply.Multiplyer(Double.MAX_VALUE, Double.MAX_VALUE));
 	}
@@ -61,7 +61,7 @@ public class MultiplyTest {
 		assertTrue(-1.0*Double.MAX_VALUE == Multiply.Multiplyer(-1.0, Double.MAX_VALUE));
 	}
 	
-	@Test
+	@Test(expected = OutOfRangeException.class)
 	public final void MultiplyerTest12() {
 		assertTrue(Double.MIN_VALUE*Double.MIN_VALUE == Multiply.Multiplyer(Double.MIN_VALUE, Double.MIN_VALUE));
 	}
@@ -71,7 +71,7 @@ public class MultiplyTest {
 		assertTrue(Double.MIN_VALUE*0.0 == Multiply.Multiplyer(Double.MIN_VALUE, 0.0));
 	}
 	
-	@Test
+	@Test(expected = OutOfRangeException.class)
 	public final void MultiplyerTest14() {
 		assertTrue(-1.0*Double.MIN_VALUE == Multiply.Multiplyer(-1.0, Double.MIN_VALUE));
 	}
