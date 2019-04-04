@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.13.0" timestamp="2019-04-04T15:26:12.038">
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\AdditionTest.java">
+<violation beginline="11" endline="11" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest1" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="11" endline="11" begincolumn="5" endcolumn="57" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest1" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="16" endline="16" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest2" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="16" endline="16" begincolumn="5" endcolumn="57" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest2" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="21" endline="21" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest3" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="21" endline="21" begincolumn="5" endcolumn="59" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest3" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest4" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="57" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest4" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest5" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="59" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest5" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest6" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="55" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest6" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="41" endline="41" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest7" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="41" endline="41" begincolumn="5" endcolumn="59" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest7" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="46" endline="46" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest8" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="46" endline="46" begincolumn="5" endcolumn="59" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest8" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest9" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="85" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="AdditionTest" method="AdditionTest9" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+</file>
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\DivideTest.java">
+<violation beginline="11" endline="11" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="16" endline="16" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest1" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="16" endline="16" begincolumn="5" endcolumn="50" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest1" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="21" endline="21" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest2" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="21" endline="21" begincolumn="5" endcolumn="53" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest2" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest3" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="53" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest3" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest4" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="51" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest4" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest5" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="53" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest5" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="41" endline="41" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest6" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="46" endline="46" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest7" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="51" endline="51" begincolumn="7" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest8" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="51" endline="51" begincolumn="7" endcolumn="57" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest8" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="56" endline="56" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest9" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="56" endline="56" begincolumn="5" endcolumn="103" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest9" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="61" endline="61" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest10" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="66" endline="66" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest11" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="66" endline="66" begincolumn="5" endcolumn="79" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest11" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="71" endline="71" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest12" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="71" endline="71" begincolumn="5" endcolumn="103" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest12" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="76" endline="76" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest13" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="81" endline="81" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest14" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="81" endline="81" begincolumn="5" endcolumn="79" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="DivideTest" method="DividerTest14" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+</file>
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\MultiplyTest.java">
+<violation beginline="11" endline="11" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest1" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="11" endline="11" begincolumn="5" endcolumn="55" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest1" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="16" endline="16" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest2" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="16" endline="16" begincolumn="5" endcolumn="58" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest2" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="21" endline="21" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest3" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="21" endline="21" begincolumn="5" endcolumn="58" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest3" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest4" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="56" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest4" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest5" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="58" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest5" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest6" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="56" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest6" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="41" endline="41" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest7" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="41" endline="41" begincolumn="5" endcolumn="58" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest7" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="46" endline="46" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest8" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="46" endline="46" begincolumn="5" endcolumn="60" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest8" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest9" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="108" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest9" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="56" endline="56" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest10" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="56" endline="56" begincolumn="5" endcolumn="82" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest10" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="61" endline="61" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest11" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="61" endline="61" begincolumn="5" endcolumn="84" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest11" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="66" endline="66" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest12" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="66" endline="66" begincolumn="5" endcolumn="108" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest12" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="71" endline="71" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest13" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="71" endline="71" begincolumn="5" endcolumn="82" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest13" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="76" endline="76" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest14" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="76" endline="76" begincolumn="5" endcolumn="84" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="MultiplyTest" method="MultiplyerTest14" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+</file>
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\QualitelogicielApplicationTests.java">
+<violation beginline="8" endline="9" begincolumn="30" endcolumn="3" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="com.imie.qualitelogiciel" class="QualitelogicielApplicationTests" method="contextLoads" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\SubstractTest.java">
+<violation beginline="10" endline="10" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="10" endline="10" begincolumn="5" endcolumn="62" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="15" endline="15" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest1" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="15" endline="15" begincolumn="5" endcolumn="59" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest1" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="20" endline="20" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest2" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="20" endline="20" begincolumn="5" endcolumn="62" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest2" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="25" endline="25" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest3" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="25" endline="25" begincolumn="5" endcolumn="62" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest3" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="30" endline="30" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest4" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="30" endline="30" begincolumn="5" endcolumn="60" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest4" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="35" endline="35" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest5" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="35" endline="35" begincolumn="5" endcolumn="62" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest5" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="40" endline="40" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest6" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="40" endline="40" begincolumn="5" endcolumn="59" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest6" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="45" endline="45" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest7" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="45" endline="45" begincolumn="5" endcolumn="63" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest7" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="50" endline="50" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest8" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="50" endline="50" begincolumn="5" endcolumn="63" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest8" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="55" endline="55" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest9" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="55" endline="55" begincolumn="5" endcolumn="112" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest9" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="60" endline="60" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest10" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="60" endline="60" begincolumn="5" endcolumn="86" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest10" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="65" endline="65" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest11" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="65" endline="65" begincolumn="5" endcolumn="88" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest11" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="70" endline="70" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest12" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="70" endline="70" begincolumn="5" endcolumn="112" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest12" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="75" endline="75" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest13" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="75" endline="75" begincolumn="5" endcolumn="86" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest13" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+<violation beginline="80" endline="80" begincolumn="5" endcolumn="14" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest14" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="80" endline="80" begincolumn="5" endcolumn="86" rule="UseAssertSameInsteadOfAssertTrue" ruleset="Best Practices" package="com.imie.qualitelogiciel" class="SubstractTest" method="SubstracterTest14" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#useassertsameinsteadofasserttrue" priority="3">
+Use assertSame(x, y) instead of assertTrue(x==y), or assertNotSame(x,y) vs assertFalse(x==y)
+</violation>
+</file>
+</pmd>
