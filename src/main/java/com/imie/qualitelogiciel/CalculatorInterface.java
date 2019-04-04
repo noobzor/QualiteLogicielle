@@ -199,10 +199,18 @@ public class CalculatorInterface extends JDialog {
 	
 	public void operate(Double nb) {
 		if (first) {
-			nb1 = Addition.Additionner(Multiply.Multiplyer(nb1, 10.0), nb);
+			try {
+				nb1 = Addition.additionner(Multiply.multiplyer(nb1, 10.0), nb);
+			} catch (OutOfRangeException e) {
+				e.printStackTrace();
+			}
 			textField.setText(nb1.toString());
 		}else {
-			nb2 = Addition.Additionner(Multiply.Multiplyer(nb2, 10.0), nb);
+			try {
+				nb2 = Addition.additionner(Multiply.multiplyer(nb2, 10.0), nb);
+			} catch (OutOfRangeException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }
