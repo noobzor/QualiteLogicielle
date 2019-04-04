@@ -2,7 +2,7 @@ package com.imie.qualitelogiciel;
 
 public class Addition {
 
-	public static Double Additionner(Double a, Double b) {
-		return a+b;
-	}
+  public static Double additionner(Double a, Double b) {
+    return a+b;
+  }
 }
