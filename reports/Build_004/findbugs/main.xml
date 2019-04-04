@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554384362861" analysisTimestamp="1554384362892" release="">
+  <Project projectName="">
+    <Jar>D:\Workspaces\Workspace_JSE\QualiteLogicielle\build\classes\java\main</Jar>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Addition.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Divide.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Multiply.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\OutOfRangeException.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\QualitelogicielApplication.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Substract.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 4 Apr 2019 15:26:02 +0200" total_classes="6" referenced_classes="40" total_bugs="0" total_size="28" num_packages="1" java_version="1.8.0_101" vm_version="25.101-b13" cpu_seconds="5.05" clock_seconds="1.55" peak_mbytes="115.74" alloc_mbytes="455.50" gc_seconds="0.03">
+    <PackageStats package="com.imie.qualitelogiciel" total_bugs="0" total_types="6" total_size="28">
+      <ClassStats class="com.imie.qualitelogiciel.Addition" sourceFile="Addition.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.Divide" sourceFile="Divide.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.Multiply" sourceFile="Multiply.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.OutOfRangeException" sourceFile="OutOfRangeException.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.QualitelogicielApplication" sourceFile="QualitelogicielApplication.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.Substract" sourceFile="Substract.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="579" invocations="460" avgMicrosecondsPerInvocation="1260" maxMicrosecondsPerInvocation="6554" standardDeviationMircosecondsPerInvocation="687"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="183" invocations="457" avgMicrosecondsPerInvocation="402" maxMicrosecondsPerInvocation="16409" standardDeviationMircosecondsPerInvocation="1146"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="62" invocations="40" avgMicrosecondsPerInvocation="1562" maxMicrosecondsPerInvocation="12117" standardDeviationMircosecondsPerInvocation="2740"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="46" invocations="136" avgMicrosecondsPerInvocation="343" maxMicrosecondsPerInvocation="4125" standardDeviationMircosecondsPerInvocation="611"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="38" invocations="40" avgMicrosecondsPerInvocation="964" maxMicrosecondsPerInvocation="9171" standardDeviationMircosecondsPerInvocation="1853"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="37" invocations="11" avgMicrosecondsPerInvocation="3364" maxMicrosecondsPerInvocation="36189" standardDeviationMircosecondsPerInvocation="10380"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
