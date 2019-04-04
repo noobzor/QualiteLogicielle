@@ -49,7 +49,7 @@ tasks.withType(Checkstyle) {
     showViolations = false
     configFile = file("$rootProject.projectDir/config/checkstyle/checkstyle.xml")
     reports {
-        xml.enabled false
+        xml.enabled true
         html.enabled true
     }
 }
@@ -69,10 +69,20 @@ jacocoTestReport {
 
 tasks.withType(FindBugs) {
     reports {
+    	ignoreFailures = true
         xml.enabled true
         html.enabled false
         html.stylesheet resources.text.fromFile('config/xsl/findbugs-custom.xsl')
     }
+}
+
+
+pmd {
+    toolVersion = '6.13.0'
+    consoleOutput= true
+    ignoreFailures = true
+    ruleSetFiles = files("config/pmd/ruleset.xml")
+    reportsDir = file("build/reports/pmd")
 }
 
 cpdCheck {
