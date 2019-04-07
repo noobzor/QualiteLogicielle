@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554383884480" analysisTimestamp="1554383884511" release="">
+  <Project projectName="">
+    <Jar>D:\Workspaces\Workspace_JSE\QualiteLogicielle\build\classes\java\main</Jar>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Addition.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\CalculatorInterface.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Divide.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Multiply.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\OutOfRangeException.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\QualitelogicielApplication.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Substract.java</SrcDir>
+  </Project>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.imie.qualitelogiciel.Addition">
+      <SourceLine classname="com.imie.qualitelogiciel.Addition" start="3" end="6" sourcefile="Addition.java" sourcepath="com/imie/qualitelogiciel/Addition.java"/>
+    </Class>
+    <Method classname="com.imie.qualitelogiciel.Addition" name="Additionner" signature="(Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/Double;" isStatic="true">
+      <SourceLine classname="com.imie.qualitelogiciel.Addition" start="6" end="6" startBytecode="0" endBytecode="64" sourcefile="Addition.java" sourcepath="com/imie/qualitelogiciel/Addition.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.imie.qualitelogiciel.Divide">
+      <SourceLine classname="com.imie.qualitelogiciel.Divide" start="3" end="7" sourcefile="Divide.java" sourcepath="com/imie/qualitelogiciel/Divide.java"/>
+    </Class>
+    <Method classname="com.imie.qualitelogiciel.Divide" name="Divider" signature="(Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/Double;" isStatic="true">
+      <SourceLine classname="com.imie.qualitelogiciel.Divide" start="7" end="7" startBytecode="0" endBytecode="64" sourcefile="Divide.java" sourcepath="com/imie/qualitelogiciel/Divide.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.imie.qualitelogiciel.Multiply">
+      <SourceLine classname="com.imie.qualitelogiciel.Multiply" start="3" end="6" sourcefile="Multiply.java" sourcepath="com/imie/qualitelogiciel/Multiply.java"/>
+    </Class>
+    <Method classname="com.imie.qualitelogiciel.Multiply" name="Multiplyer" signature="(Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/Double;" isStatic="true">
+      <SourceLine classname="com.imie.qualitelogiciel.Multiply" start="6" end="6" startBytecode="0" endBytecode="64" sourcefile="Multiply.java" sourcepath="com/imie/qualitelogiciel/Multiply.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.imie.qualitelogiciel.Substract">
+      <SourceLine classname="com.imie.qualitelogiciel.Substract" start="3" end="7" sourcefile="Substract.java" sourcepath="com/imie/qualitelogiciel/Substract.java"/>
+    </Class>
+    <Method classname="com.imie.qualitelogiciel.Substract" name="Substracter" signature="(Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/Double;" isStatic="true">
+      <SourceLine classname="com.imie.qualitelogiciel.Substract" start="7" end="7" startBytecode="0" endBytecode="64" sourcefile="Substract.java" sourcepath="com/imie/qualitelogiciel/Substract.java"/>
+    </Method>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 4 Apr 2019 15:18:04 +0200" total_classes="20" referenced_classes="309" total_bugs="4" total_size="215" num_packages="1" java_version="1.8.0_101" vm_version="25.101-b13" cpu_seconds="14.84" clock_seconds="5.37" peak_mbytes="214.97" alloc_mbytes="455.50" gc_seconds="0.23" priority_2="4">
+    <PackageStats package="com.imie.qualitelogiciel" total_bugs="4" total_types="20" total_size="215" priority_2="4">
+      <ClassStats class="com.imie.qualitelogiciel.Addition" sourceFile="Addition.java" interface="false" size="5" bugs="1" priority_2="1"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface" sourceFile="CalculatorInterface.java" interface="false" size="99" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$1" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$10" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$11" sourceFile="CalculatorInterface.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$12" sourceFile="CalculatorInterface.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$13" sourceFile="CalculatorInterface.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$2" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$3" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$4" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$5" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$6" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$7" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$8" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$9" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.Divide" sourceFile="Divide.java" interface="false" size="5" bugs="1" priority_2="1"/>
+      <ClassStats class="com.imie.qualitelogiciel.Multiply" sourceFile="Multiply.java" interface="false" size="5" bugs="1" priority_2="1"/>
+      <ClassStats class="com.imie.qualitelogiciel.OutOfRangeException" sourceFile="OutOfRangeException.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.QualitelogicielApplication" sourceFile="QualitelogicielApplication.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.Substract" sourceFile="Substract.java" interface="false" size="5" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="2983" invocations="1447" avgMicrosecondsPerInvocation="2062" maxMicrosecondsPerInvocation="46241" standardDeviationMircosecondsPerInvocation="3370"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="415" invocations="1443" avgMicrosecondsPerInvocation="287" maxMicrosecondsPerInvocation="33308" standardDeviationMircosecondsPerInvocation="1120"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="207" invocations="309" avgMicrosecondsPerInvocation="671" maxMicrosecondsPerInvocation="12379" standardDeviationMircosecondsPerInvocation="1376"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="191" invocations="309" avgMicrosecondsPerInvocation="621" maxMicrosecondsPerInvocation="9951" standardDeviationMircosecondsPerInvocation="1266"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
