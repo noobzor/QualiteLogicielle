@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554656539267" analysisTimestamp="1554656539297" release="">
+  <Project projectName="">
+    <Jar>D:\Workspaces\Workspace_JSE\QualiteLogicielle\build\classes\java\main</Jar>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Addition.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\CalculatorInterface.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Divide.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Multiply.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\OutOfRangeException.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\QualitelogicielApplication.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Substract.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 7 Apr 2019 19:02:19 +0200" total_classes="20" referenced_classes="309" total_bugs="0" total_size="238" num_packages="1" java_version="1.8.0_101" vm_version="25.101-b13" cpu_seconds="14.53" clock_seconds="4.64" peak_mbytes="217.87" alloc_mbytes="455.50" gc_seconds="0.21">
+    <PackageStats package="com.imie.qualitelogiciel" total_bugs="0" total_types="20" total_size="238">
+      <ClassStats class="com.imie.qualitelogiciel.Addition" sourceFile="Addition.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface" sourceFile="CalculatorInterface.java" interface="false" size="105" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$1" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$10" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$11" sourceFile="CalculatorInterface.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$12" sourceFile="CalculatorInterface.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$13" sourceFile="CalculatorInterface.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$2" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$3" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$4" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$5" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$6" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$7" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$8" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterface$9" sourceFile="CalculatorInterface.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.Divide" sourceFile="Divide.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.Multiply" sourceFile="Multiply.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.OutOfRangeException" sourceFile="OutOfRangeException.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.QualitelogicielApplication" sourceFile="QualitelogicielApplication.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.Substract" sourceFile="Substract.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1834" invocations="1447" avgMicrosecondsPerInvocation="1267" maxMicrosecondsPerInvocation="9324" standardDeviationMircosecondsPerInvocation="927"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="443" invocations="1443" avgMicrosecondsPerInvocation="307" maxMicrosecondsPerInvocation="16310" standardDeviationMircosecondsPerInvocation="810"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="302" invocations="309" avgMicrosecondsPerInvocation="977" maxMicrosecondsPerInvocation="14963" standardDeviationMircosecondsPerInvocation="2071"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="265" invocations="309" avgMicrosecondsPerInvocation="860" maxMicrosecondsPerInvocation="14556" standardDeviationMircosecondsPerInvocation="1820"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="168" invocations="661" avgMicrosecondsPerInvocation="255" maxMicrosecondsPerInvocation="7789" standardDeviationMircosecondsPerInvocation="482"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="155" invocations="20" avgMicrosecondsPerInvocation="7775" maxMicrosecondsPerInvocation="152103" standardDeviationMircosecondsPerInvocation="33113"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="79" invocations="367" avgMicrosecondsPerInvocation="215" maxMicrosecondsPerInvocation="17696" standardDeviationMircosecondsPerInvocation="1066"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
