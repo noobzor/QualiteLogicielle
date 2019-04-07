@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.13.0" timestamp="2019-04-04T13:17:19.975">
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Addition.java">
+<violation beginline="3" endline="8" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.imie.qualitelogiciel" class="Addition" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="8" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Addition" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Addition' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="5" endline="5" begincolumn="42" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Addition" method="Additionner" variable="a" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'a' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="5" begincolumn="52" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Addition" method="Additionner" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+</file>
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Divide.java">
+<violation beginline="3" endline="9" begincolumn="21" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.imie.qualitelogiciel" class="Divide" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="9" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Divide" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Divide' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="6" endline="6" begincolumn="38" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Divide" method="Divider" variable="a" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'a' is not assigned and could be declared final
+</violation>
+<violation beginline="6" endline="6" begincolumn="48" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Divide" method="Divider" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+</file>
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Multiply.java">
+<violation beginline="3" endline="8" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.imie.qualitelogiciel" class="Multiply" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="8" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Multiply" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Multiply' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="5" endline="5" begincolumn="41" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Multiply" method="Multiplyer" variable="a" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'a' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="5" begincolumn="51" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Multiply" method="Multiplyer" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+</file>
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\OutOfRangeException.java">
+<violation beginline="3" endline="5" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.imie.qualitelogiciel" class="OutOfRangeException" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="3" endline="5" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="com.imie.qualitelogiciel" class="OutOfRangeException" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\QualitelogicielApplication.java">
+<violation beginline="3" endline="8" begincolumn="41" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.imie.qualitelogiciel" class="QualitelogicielApplication" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="5" endline="6" begincolumn="48" endcolumn="9" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="com.imie.qualitelogiciel" class="QualitelogicielApplication" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="5" endline="5" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.imie.qualitelogiciel" class="QualitelogicielApplication" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+</file>
+<file name="D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\main\java\com\imie\qualitelogiciel\Substract.java">
+<violation beginline="3" endline="10" begincolumn="24" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.imie.qualitelogiciel" class="Substract" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="10" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Substract" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Substract' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="5" endline="5" begincolumn="42" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Substract" method="Substracter" variable="a" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'a' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="5" begincolumn="52" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.imie.qualitelogiciel" class="Substract" method="Substracter" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1554670188644" analysisTimestamp="1554670188677" release="">
+  <Project projectName="">
+    <Jar>D:\Workspaces\Workspace_JSE\QualiteLogicielle\build\classes\java\test</Jar>
+    <AuxClasspathEntry>D:\Workspaces\Workspace_JSE\QualiteLogicielle\build\classes\java\main</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Workspaces\Workspace_JSE\QualiteLogicielle\build\resources\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Fabien\.gradle\caches\modules-2\files-2.1\junit\junit\4.4\8f35ee1f35d2dadbb5029991449ee90c1bab4d4a\junit-4.4.jar</AuxClasspathEntry>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\AdditionTest.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\CalculatorInterfaceTest.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\DivideTest.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\MultiplyTest.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\QualitelogicielApplicationTests.java</SrcDir>
+    <SrcDir>D:\Workspaces\Workspace_JSE\QualiteLogicielle\src\test\java\com\imie\qualitelogiciel\SubstractTest.java</SrcDir>
+  </Project>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.imie.qualitelogiciel.CalculatorInterfaceTest">
+      <SourceLine classname="com.imie.qualitelogiciel.CalculatorInterfaceTest" start="7" end="30" sourcefile="CalculatorInterfaceTest.java" sourcepath="com/imie/qualitelogiciel/CalculatorInterfaceTest.java"/>
+    </Class>
+    <Method classname="com.imie.qualitelogiciel.CalculatorInterfaceTest" name="AdditionTest1" signature="()V" isStatic="false">
+      <SourceLine classname="com.imie.qualitelogiciel.CalculatorInterfaceTest" start="11" end="14" startBytecode="0" endBytecode="120" sourcefile="CalculatorInterfaceTest.java" sourcepath="com/imie/qualitelogiciel/CalculatorInterfaceTest.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.imie.qualitelogiciel.CalculatorInterfaceTest">
+      <SourceLine classname="com.imie.qualitelogiciel.CalculatorInterfaceTest" start="7" end="30" sourcefile="CalculatorInterfaceTest.java" sourcepath="com/imie/qualitelogiciel/CalculatorInterfaceTest.java"/>
+    </Class>
+    <Method classname="com.imie.qualitelogiciel.CalculatorInterfaceTest" name="AdditionTest2" signature="()V" isStatic="false">
+      <SourceLine classname="com.imie.qualitelogiciel.CalculatorInterfaceTest" start="18" end="22" startBytecode="0" endBytecode="134" sourcefile="CalculatorInterfaceTest.java" sourcepath="com/imie/qualitelogiciel/CalculatorInterfaceTest.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.imie.qualitelogiciel.CalculatorInterfaceTest">
+      <SourceLine classname="com.imie.qualitelogiciel.CalculatorInterfaceTest" start="7" end="30" sourcefile="CalculatorInterfaceTest.java" sourcepath="com/imie/qualitelogiciel/CalculatorInterfaceTest.java"/>
+    </Class>
+    <Method classname="com.imie.qualitelogiciel.CalculatorInterfaceTest" name="AdditionTest3" signature="()V" isStatic="false">
+      <SourceLine classname="com.imie.qualitelogiciel.CalculatorInterfaceTest" start="26" end="30" startBytecode="0" endBytecode="132" sourcefile="CalculatorInterfaceTest.java" sourcepath="com/imie/qualitelogiciel/CalculatorInterfaceTest.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="2" rank="17" abbrev="FE" category="STYLE">
+    <Class classname="com.imie.qualitelogiciel.MultiplyTest">
+      <SourceLine classname="com.imie.qualitelogiciel.MultiplyTest" start="7" end="77" sourcefile="MultiplyTest.java" sourcepath="com/imie/qualitelogiciel/MultiplyTest.java"/>
+    </Class>
+    <Method classname="com.imie.qualitelogiciel.MultiplyTest" name="multiplyerTest14" signature="()V" isStatic="false">
+      <SourceLine classname="com.imie.qualitelogiciel.MultiplyTest" start="76" end="77" startBytecode="0" endBytecode="90" sourcefile="MultiplyTest.java" sourcepath="com/imie/qualitelogiciel/MultiplyTest.java"/>
+    </Method>
+    <SourceLine classname="com.imie.qualitelogiciel.MultiplyTest" start="76" end="76" startBytecode="22" endBytecode="22" sourcefile="MultiplyTest.java" sourcepath="com/imie/qualitelogiciel/MultiplyTest.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 7 Apr 2019 22:49:48 +0200" total_classes="6" referenced_classes="23" total_bugs="4" total_size="198" num_packages="1" java_version="1.8.0_101" vm_version="25.101-b13" cpu_seconds="8.94" clock_seconds="3.18" peak_mbytes="132.86" alloc_mbytes="455.50" gc_seconds="0.11" priority_2="4">
+    <PackageStats package="com.imie.qualitelogiciel" total_bugs="4" total_types="6" total_size="198" priority_2="4">
+      <ClassStats class="com.imie.qualitelogiciel.AdditionTest" sourceFile="AdditionTest.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.CalculatorInterfaceTest" sourceFile="CalculatorInterfaceTest.java" interface="false" size="20" bugs="3" priority_2="3"/>
+      <ClassStats class="com.imie.qualitelogiciel.DivideTest" sourceFile="DivideTest.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.MultiplyTest" sourceFile="MultiplyTest.java" interface="false" size="45" bugs="1" priority_2="1"/>
+      <ClassStats class="com.imie.qualitelogiciel.QualitelogicielApplicationTests" sourceFile="QualitelogicielApplicationTests.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.imie.qualitelogiciel.SubstractTest" sourceFile="SubstractTest.java" interface="false" size="50" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1572" invocations="355" avgMicrosecondsPerInvocation="4428" maxMicrosecondsPerInvocation="20715" standardDeviationMircosecondsPerInvocation="3025"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="240" invocations="354" avgMicrosecondsPerInvocation="680" maxMicrosecondsPerInvocation="20031" standardDeviationMircosecondsPerInvocation="1765"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="140" invocations="63" avgMicrosecondsPerInvocation="2225" maxMicrosecondsPerInvocation="89895" standardDeviationMircosecondsPerInvocation="11201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="82" invocations="37" avgMicrosecondsPerInvocation="2233" maxMicrosecondsPerInvocation="66900" standardDeviationMircosecondsPerInvocation="10841"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="61" invocations="23" avgMicrosecondsPerInvocation="2670" maxMicrosecondsPerInvocation="22270" standardDeviationMircosecondsPerInvocation="5170"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
